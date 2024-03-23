@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,243,1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+
+.form {
+background-color: #fff;
+padding: 70px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-color: #000000;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #292828;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input:focus {
+    background-color: rgb(23, 4, 101);
+    color: #ffffff;
+  }
+
+  
